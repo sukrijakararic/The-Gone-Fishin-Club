@@ -1,0 +1,122 @@
+html {
+    text-align: center;
+    font-size: 16px;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: wheat;
+}
+
+/* * {
+    border: 1px solid yellow; 
+}
+*/
+body {
+    background-color: #173f5f;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-image: url(../images/nav-banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+p {
+    padding: 0 0.3125rem 0.3125rem 0;
+}
+
+table {
+    border: 1px solid wheat;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    margin-top: 2rem;
+}
+th, td {
+    background-color: #90c0da;
+}
+
+.icon img {
+    height: 15px;
+    width: auto;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.icon span {
+    font-size: 1.5em;
+    color: wheat;
+}
+
+@media only screen and (max-width: 390px) {
+    .icon span {
+        font-size: 1.3em;
+
+    }
+}
+
+/* Body section section with images */
+
+
+.about {
+    margin-top: 4rem;
+    background-color: #74c4cc;
+}
+
+.fishing {
+    display: block;
+}
+
+.fishing img {
+    width: 300px;
+    height: 200px;
+    margin: 4rem;
+    border-radius: 10px;
+    border: 1px solid #20639b;
+}
+
+@media only screen and (max-width: 450px) {
+    .fishing img {
+        margin: auto;
+    }
+}
+
+.testamonial {
+    background-color: #74c4cc;
+    text-align: left;
+    padding-left: .635rem;
+}
+
+/* Footer Section*/
+
+.footer {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+h5 {
+    align-items: end;
+    color: wheat;
+}
